@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+
+<body>
+    <h1> Formulaire DWWM</h1>
+
+    <form action="/formulaire.html" method="post">
+
+        <div>
+            <label for="Name">  Nom  </label> <br>
+            <input type="text" value="Entrez votre nom" id="name" name="user_name">
+        </div>
+
+        <div>
+            <label for="mail">E-mail&nbsp; </label> <br>
+            <input type="email" value="Entrez votre email" id="mail" name="user_mail">
+
+        </div>
+
+        <div>
+            <label for="number"> Indiquez votre satisfaction au cours de 1 à 10</label> <br>
+            <input type="number" min="1" max="10" placeholder=" numéro de 1 à 10" id="number" name=" Numéro de 1 à 10">
+        </div>
+
+        <div>
+            <label for="Name"> Qui est votre Coach?</label> <br>
+            <select>
+                <option> Birante </option>
+                <option> Malick </option>
+                <option> Mamadou </option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="Name ">A quel moment avez-vous cours?</label> <br>
+            <br>
+            <input type="radio"> Matin <br>
+            <input type="radio">Après-midi <br>
+            <input type="radio"> Soir <br>
+        </div> <br>
+
+        <div>
+            <label for="choice"> Quels outils avez-vous rencontrés jusque là? <br> (Selectionnez tout ce qui s'applique) <br></label> <br>
+            <input type="checkbox"> HTML <br>
+            <input type="checkbox"> CSS <br>
+            <input type="checkbox"> JavaScript <br>
+            <input type="checkbox"> Editeur de texte <br>
+            <input type="checkbox"> Ligne de commande <br>
+
+        </div><br>
+
+
+
+        <div>
+            <label for="msg ">Decrivez votre expérience jusque là </label> <br>
+            <textarea cols="30" rows="5"> Decrivez votre texte ici...
+                </textarea>
+
+        </div>
+
+        <div class=" button ">
+            <button type="submit "> Envoyer </button>
+        </div>
+    </form>
+
+</body>
+
+</html>
