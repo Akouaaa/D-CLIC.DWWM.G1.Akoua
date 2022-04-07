@@ -1,0 +1,37 @@
+
+body {  
+    margin: 0px;
+    padding: 0px;
+      background-color:rgba(187, 60, 215, 0.882);
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: bisque;
+}
+.square2 {
+    top: 50px;
+    left: 50px;
+}
+
+.square3 {
+    top: 50px;
+    right: 50px;
+}
+
+.square4{ 
+    bottom: 50px;
+    left: 50px;
+}
+
+.square5 {
+    bottom: 50px;
+    right: 50px;
+}
+
+
